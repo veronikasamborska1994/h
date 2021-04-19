@@ -1,7 +1,14 @@
 dependencies:
   - bokeh
   - numpy
-  - pip
+  - geopandas
+  - json
+  - pandas
+  - numpy
+  - math
+  - matplotlib
+  - datetime
+  - os
   - pip:
     - nbserverproxy
     - jupyter-server-proxy
