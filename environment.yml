@@ -7,4 +7,9 @@ dependencies:
   - pip:
     - nbserverproxy
     - jupyter-server-proxy
+    - json
+    - pandas
+    - math
+    - datetime
+    - os
  
