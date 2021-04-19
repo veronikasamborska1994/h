@@ -1,13 +1,10 @@
 import pandas as pd
 import numpy as np
-import math
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 from matplotlib import cm
 import geopandas as gpd
 import json
-from datetime import date
-import datetime as dt
 from bokeh.io import output_notebook, show, output_file
 from bokeh.plotting import figure
 from bokeh.models import GeoJSONDataSource, LinearColorMapper, ColorBar, NumeralTickFormatter
@@ -20,8 +17,6 @@ from bokeh.models import Div, Column, CustomJS
 
 # read in population data
 
-from os import listdir
-from os.path import isfile, join
 
 gdata = gpd.read_file('https://raw.githubusercontent.com/veronikasamborska1994/GNI-Fellowship-at-The-Guardian/master/data/eer.geojson')
 
