@@ -4,5 +4,4 @@ dependencies:
   - pip:
     - nbserverproxy
     - jupyter-server-proxy
-    - geopandas
-    - json
+ 
