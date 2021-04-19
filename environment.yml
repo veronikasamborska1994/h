@@ -8,7 +8,4 @@ dependencies:
     - nbserverproxy
     - jupyter-server-proxy
     - pandas
-    - math
-    - datetime
-    - os
- 
+
